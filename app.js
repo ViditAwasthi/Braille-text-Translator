@@ -9,6 +9,7 @@ function constructURL(text) {
 
 function handleError(error) {
     console.log("error occured", error);
+    alert("Error Occurred Please try Later!")
 }
 
 btnTranslate.addEventListener("click", function clickEventHandler() {

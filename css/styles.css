@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-image: url('../images/backimg.png');
 }
 
 
@@ -67,16 +68,17 @@ button {
 }
 
 
-.container p {
-    display: block;
-    margin-left: 2px;
-}
-
-
 section p {
-    margin-left: 27px;
+    display: block;
+    width: fit-content;
+    margin-left: 15px;
     font-weight: bold;
     margin-top: 2rem;
+    color: white;
+    padding: 0.4rem;
+    background-color: var(--primary-colour);
+    border-radius: 1rem;
+    border: 2px solid #FF6363;
 }
 
 #div-output {
@@ -84,10 +86,12 @@ section p {
     width: 90%;
     height: 60px;
     border: 2px solid var(--primary-colour);
-    color: black;
     border-radius: 1rem;
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
+    color: var(--primary-colour);
+    font-weight: bold;
+    font-size: x-large;
 }
 
 footer {
@@ -99,6 +103,7 @@ footer {
     padding-top: 1rem;
     border-bottom-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    color: whitesmoke;
 }
 
 
