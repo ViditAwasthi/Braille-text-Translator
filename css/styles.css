@@ -11,26 +11,30 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url('../images/backimg.png');
 }
-
+main{
+    background-image: url('../images/unnamed.gif');
+height: 370px;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
 
 .navbar {
     text-align: center;
     height: 98px;
     background-color: var(--primary-colour);
-    margin-bottom: 2rem;
     color: white;
     border-bottom-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 }
 
 
-nav img{
+nav img {
     height: 3rem;
     width: 3rem;
 }
-nav div{
+
+nav div {
     padding-top: 1.3rem;
     font-size: xx-large;
     font-weight: bold;
@@ -95,7 +99,6 @@ section p {
 }
 
 footer {
-    margin-top: 2rem;
     width: 100%;
     text-align: center;
     background-color: #FF6363;
