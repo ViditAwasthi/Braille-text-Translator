@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+:root {
+    --primary-colour: #202040;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.navbar {
+    text-align: center;
+    height: 98px;
+    background-color: var(--primary-colour);
+    margin-bottom: 2rem;
+    color: white;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+
+nav img{
+    height: 3rem;
+    width: 3rem;
+}
+nav div{
+    padding-top: 1.3rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#container {
+    margin: auto;
+    max-width: 600px;
+}
+
+textarea {
+    display: block;
+    min-height: 4rem;
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid var(--primary-colour);
+    font-size: large;
+    border-radius: 1rem;
+    color: tomato;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border: 2px solid var(--primary-colour);
+    background-color: #FF6363;
+    height: 40px;
+    width: 150px;
+    font-weight: bolder;
+    color: var(--primary-colour);
+
+}
+
+
+.container p {
+    display: block;
+    margin-left: 2px;
+}
+
+
+section p {
+    margin-left: 27px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#div-output {
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    border: 2px solid var(--primary-colour);
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #FF6363;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+
+footer p {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 1rem;
+
+}
